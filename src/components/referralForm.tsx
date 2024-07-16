@@ -61,8 +61,6 @@ export default function ReferralForm() {
 
     }
 
-    console.log(referralCode);
-
     if (referralCode) {
         return <Success referralCode={referralCode} />
     }
