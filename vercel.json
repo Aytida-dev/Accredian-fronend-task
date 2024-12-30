@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/blogs/(.*)",
+      "destination": "http://15.207.165.204/$1",
+      "permanent": false
+    }
+  ]
+}
