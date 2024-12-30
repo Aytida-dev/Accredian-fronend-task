@@ -1,9 +1,8 @@
 {
-  "redirects": [
+  "routes": [
     {
-      "source": "/blogs/(.*)",
-      "destination": "http://15.207.165.204/$1",
-      "permanent": false
+      "src": "/blogs/(.*)",
+      "dest": "/api/proxy"
     }
   ]
 }
